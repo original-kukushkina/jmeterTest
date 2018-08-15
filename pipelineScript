@@ -1,4 +1,4 @@
 node {
 stage 'Run Jmeter Test'
-bat '/apache-jmeter-4.0/apache-jmeter-4.0/apache-jmeter-4.0/bin/jmeter.bat -n -t /apache-jmeter-4.0/apache-jmeter-4.0/apache-jmeter-4.0/bin/jenkins_connect_new.jmx -l test.jtl'
+bat 'C:/Users/Kukushkina/apache-jmeter-4.0/apache-jmeter-4.0/apache-jmeter-4.0/bin/jmeter.bat -n -t C:/Users/Kukushkina/apache-jmeter-4.0/apache-jmeter-4.0/apache-jmeter-4.0/bin/jenkins_connect_new.jmx -l test.jtl'
 }
